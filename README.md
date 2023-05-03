@@ -1,6 +1,6 @@
 <code>🎓 Student: NAU / IT-161</code>
 <code>⚪ Community: Young students developer</code>
-<code>👷 Speciality: Software engineer / Backend</code><br>
+<code>👷 Speciality: Software engineer</code><br>
 <code>💡 [Skills](SKILLS.md)</code>
 <code>🧻 [Projects](PROJECTS.md)</code><br>
 <code>🧑‍💻 Languages: Swift, C++, C#</code>

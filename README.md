@@ -1,4 +1,4 @@
-<code>🎓 Student: KPI / IM-11</code>
+<code>🎓 Student: NAU / IT-161</code>
 <code>⚪ Community: Young students developer</code>
 <code>👷 Speciality: Software engineer / Backend</code><br>
 <code>💡 [Skills](SKILLS.md)</code>

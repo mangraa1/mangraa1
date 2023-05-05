@@ -24,13 +24,6 @@
 |                       |                       | 🟦 listener           |                      | 🟦 exception         |
 |                       |                       | 🟦 pool               |                      | 🟦 return early      |
 |                       |                       | 🟦 factory            |                      | 🟦 linter            |
-|                       |                       |                       |                      |                      |
-|                       |                       |                       |                      |                      |
-|                       |                       |                       |                      |                      |
-|                       |                       |                       |                      |                      |
-|                       |                       |                       |                      |                      |
-|                       |                       |                       |                      |                      |
-|                       |                       |                       |                      |                      |
 
 ## Multi-paradigm programming
 

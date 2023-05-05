@@ -1,6 +1,6 @@
 # Personal profile of software engineering skills
 
-⬜ Optional, 🟦 Required for all, 🟨 Required for js, 🟩 Learned, 🟥 Declined
+⬜ Optional, 🟦 Required for all, 🟩 Learned, 🟥 Declined
 
 ## Fundamental concepts
 
@@ -9,28 +9,28 @@
 | 🟦 value             | 🟦 if                 | 🟦 recursion          | 🟦 array            | 🟦 refactoring       |
 | 🟦 identifier        | 🟦 loops              | 🟦 function           | 🟦 instance         | 🟦 code review       |
 | 🟦 variable          | 🟦 assignment         | 🟦 return             | 🟦 object           | 🟦 antipatterns      |
-| 🟦 constant          | 🟨 prototype          | 🟦 signature          | 🟦 collection       | 🟦 paradigm          |
+| 🟦 constant          | 🟦 switch             | 🟦 signature          | 🟦 collection       | 🟦 paradigm          |
 | 🟦 scalar            | 🟦 class              | 🟦 argument           | 🟦 hash table       | 🟦 algorithm         |
 | 🟦 literal           | 🟦 while              | 🟦 parameter          | 🟦 linked list      | 🟦 magic numbers     |
 | 🟦 expression        | 🟦 do..while          | 🟦 pure function      | 🟦 queue            | 🟦 hardcode          |
 | 🟦 heap              | 🟦 for                | 🟦 lambda             | 🟦 stack            | 🟦 complexity        |
-| 🟦 type              | 🟨 for..in            | 🟦 side effects       | 🟦 deque            | 🟦 decomposition     |
-| 🟦 primitive types   | 🟨 for..of            | 🟦 closure            | 🟦 serialization    | ⬜️ spaghetti         |
-| 🟦 reference         | 🟨 for await          | 🟦 partial            | 🟦 mixin, extend    | ⬜️ silver bullet     |
-| 🟦 flag              | 🟦 throw              | ⬜️ curry              | 🟨 iterator         | ⬜️ not invented here |
-| 🟦 lexical scope     | 🟦 try..catch         | 🟦 chaining           | 🟨 typed arrays     | 🟦 dead code         |
-| 🟦 code block        | 🟦 equality operators | 🟦 higher order       | 🟨 Map              | 🟦 unreachable code  |
-| 🟨 Object            | 🟦 logical operators  | 🟦 callback           | 🟨 Set              | 🟦 duplicate code    |
-| 🟨 this              | 🟦 bitwise operators  | 🟦 listener           | ⬜️ weak collections | 🟦 exception         |
-| 🟨 arrow function    | 🟦 break, continue    | ⬜️ pipe               | ⬜️ Proxy            | 🟦 return early      |
-| 🟨 generator         | 🟦 switch             | ⬜ compose            | ⬜️ Symbol           | 🟦 linter            |
-| 🟨 async function    | 🟨 new Error          | ⬜️ memoize            | 🟨 string parsing   | ⬜️ prettier          |
-| 🟨 call, bind, apply |                       | 🟦 factory            | 🟨 timers           | 🟦 unittest          |
-| 🟨 Array             |                       | 🟦 pool               | 🟨 EventEmitter     | 🟦 git               |
-| 🟨 instanceof        |                       | 🟦 wrapper            | 🟨 RegExp           | 🟦 github            |
-| 🟨 ...spread         |                       | 🟨 default parameters | 🟨 global           | 🟨 node.js           |
-| 🟨 ...rest           |                       |                       | 🟨 undefined        | 🟨 npm               |
-| 🟨 typeof            |                       |                       | 🟦 null             |                      |
+| 🟦 type              | 🟦 throw              | 🟦 side effects       | 🟦 deque            | 🟦 decomposition     |
+| 🟦 primitive types   | 🟦 try..catch         | 🟦 closure            | 🟦 serialization    | 🟦 git               |
+| 🟦 reference         | 🟦 equality operators | 🟦 partial            | 🟦 mixin, extend    | 🟦 unittest          |
+| 🟦 flag              | 🟦 logical operators  | 🟦 wrapper            | 🟦 Set              | 🟦 github            |
+| 🟦 lexical scope     | 🟦 bitwise operators  | 🟦 chaining           | 🟦 nil              | 🟦 dead code         |
+| 🟦 code block        | 🟦 break, continue    | 🟦 higher order       |                      | 🟦 unreachable code  |
+|                       |                       | 🟦 callback           |                      | 🟦 duplicate code    |
+|                       |                       | 🟦 listener           |                      | 🟦 exception         |
+|                       |                       | 🟦 pool               |                      | 🟦 return early      |
+|                       |                       | 🟦 factory            |                      | 🟦 linter            |
+|                       |                       |                       |                      |                      |
+|                       |                       |                       |                      |                      |
+|                       |                       |                       |                      |                      |
+|                       |                       |                       |                      |                      |
+|                       |                       |                       |                      |                      |
+|                       |                       |                       |                      |                      |
+|                       |                       |                       |                      |                      |
 
 ## Multi-paradigm programming
 
@@ -81,31 +81,54 @@
 | ⬜ Coroutine           |                                |                     |                          |
 | ⬜ Goroutine           |                                |                     |                          |
 
-## Node.js and backend
+## iOS Development specific skills
+[Link to sources](https://trello.com/b/hLGyiEEE/swift-developer-roadmap)
 
-| Internals            | Theory                       | Network           | Technique        | Problems             |
-|----------------------|------------------------------|-------------------|------------------|----------------------|
-| 🟦 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟦 HTTP(S)        | 🟦 Logging       | 🟦 Memory leaks      |
-| 🟦 Event Loop        | 🟦 CPU bound tasks           | 🟦 TCP/SSL        | 🟦 Testing       | 🟦 Resource leaks    |
-| 🟦 commonjs          | 🟦 Memory bound tasks        | 🟦 UDP            | ⬜ CI/CD         | 🟦 Blocking code     |
-| 🟦 ECMA modules      | 🟦 Multilayer approach       | 🟦 TLS            | 🟦 Readable      | 🟦 Data race         |
-| 🟦 Network API       | 🟦 Separation of concerns    | 🟦 Websocket      | 🟦 Writable      | 🟦 Graceful Shutdown |
-| ⬜ Addons            | 🟦 Inversion of control      | ⬜ SSE            | 🟦 Transform     | 🟦 Dependencies      |
-| ⬜ N-API             | 🟦 Dependency injection      | ⬜ HTTP/3 (QUIC)  | ⬜ back pressure |                      |
-| ⬜ Webassembly       | 🟦 GRASP for JS and Node.js  | ⬜ Long polling   | 🟦 Buffer        |                      |
-| 🟦 npm               | 🟦 SOLID for JS and Node.js  | 🟦 REST           | 🟦 Console       |                      |
-| 🟦 node_modules      | 🟦 GoF for JS and Node.js    | 🟦 RPC            | 🟦 Inspector     |                      |
-| 🟦 package.json      | ⬜ Distributed systems       | 🟦 Routing        | 🟦 Reliability   |                      |
-| 🟦 vm isolation      | ⬜ Highload applications     | 🟦 IP sticky      | 🟦 Quality       |                      |
-| 🟦 command line args | 🟦 DDD                       | 🟦 DoS            | 🟦 Availability  |                      |
-| ⬜ Node.js CLI       | 🟦 Clean architecture        | 🟦 DDoS           | 🟦 Flexibility   |                      |
-| 🟦 Streams           | 🟦 Domain in the middle      | 🟦 XSS            |                  |                      |
-| 🟦 Clustering        | 🟦 Message Queue             | 🟦 Path traversal |                  |                      |
-| ⬜ Load balancing    | 🟦 Transport-agnostic server | 🟦 CSRF           |                  |                      |
-| ⬜ Serverless clouds | 🟦 Framework-agnostic app    | 🟦 DNS            |                  |                      |
-| ⬜ FaaS clouds       | ⬜ Interactive applications  | 🟦 Fetch          |                  |                      |
-| 🟦 Debugging node.js | ⬜ Real-time applications    | 🟦 zlib           |                  |                      |
-| 🟦 crypto            | 🟦 CQS and CQRS              |                   |                  |                      |
-| ⬜ SharedArrayBuffer | 🟦 Event Sourcing            |                   |                  |                      |
-| 🟦 child_process     | 🟦 Shared memory             |                   |                  |                      |
-| 🟦 worker_threads    |                              |                   |                  |                      |
+| Level 1                     | Level 2                       | Level 3                     |
+|-----------------------------|-------------------------------|-----------------------------|
+| 🟦 Basic Terminal Usage     | 🟦 Carthage                   | 🟦 Concurrent Programming  |
+| 🟦 Git                      | 🟦 Dynamic, Static frameworks | 🟦 Grand Central Dispatch  |
+| 🟦 GitHub                   | 🟦 Value, Reference Types     | 🟦 Build Config            |
+| 🟦 Xcode IDE                | 🟦 Functional Programming     | 🟦 Scheme                  |
+| 🟦 Swift Playgrounds        | 🟦 Xcode Code Coverage        | 🟦 Target                  |
+| 🟦 Swift Basics             | 🟦 Manual Memory Management   | 🟦 View Code               |
+| 🟦 Data Structures          | 🟦 Automatic Reference Count  | 🟦 Swift Evolution         |
+| 🟦 Algorithms               | 🟦 Clean Code                 | 🟦 Services & Frameworks   |
+| 🟦 OOP                      | 🟦 Generic Types              | 🟦 Firebase                |
+| 🟦 Foundation               | 🟦 Observers                  | 🟦 KeyedArchiver           |
+| 🟦 Storyboard               | 🟦 Reactive Programming       | 🟦 Swift Package Manager   |
+| 🟦 Auto Layout              | 🟦 RxSwift                    | 🟦 Fastlane                |
+| 🟦 Human Interface Guideines| 🟦 SwiftUI                    | 🟦 Slather                 |
+| 🟦 UIKit                    | 🟦 Combine                    | 🟦 Travis                  |
+| 🟦 UIViewControllers        | 🟦 ReactiveCocoa              | 🟦 Bitrise                 |
+| 🟦 ViewController Life Cycle| 🟦 Cocoa Touch                | 🟦 CircleCI                |
+| 🟦 Model View Controller    | 🟦 XIB                        | 🟦 Jenkins                 |
+| 🟦 Delegates                | 🟦 Dependency Injection       | 🟦 Xcode Server            |
+| 🟦 Reference Cycle          | 🟦 SOLID                      | 🟦 Codecov.io              |
+| 🟦 Optionals                | 🟦 Test-Driven Development    | 🟦 TCP/IP Sockets APIs     |
+| 🟦 Navigation               | 🟦 Test Doubles (Mocks)       | 🟦 TLS & MTLS              |
+| 🟦 Application Life Cycle   | 🟦 Clean Architecture         | 🟦 SSL Pinning             |
+| 🟦 RESTful APIs             | 🟦 VIPER                      | 🟦 Security                |
+| 🟦 HTTP APIs                | 🟦 Coordinators               | 🟦 Coroutines              |
+| 🟦 URLSession               | 🟦 Pattern Matching           | 🟦 Command Line with Swift |
+| 🟦 JSON Serialization       | 🟦 UI Tests                   | 🟦 Swift on Docker         |
+| 🟦 Alamofire                | 🟦 Nimble                     | 🟦 WebFrameworks           |
+| 🟦 CocoaPods                | 🟦 Quick                      | 🟦 Universal Links         |
+| 🟦 Debugging                | 🟦 Core Data                  | 🟦 Fabric                  |
+| 🟦 SwiftLint                | 🟦 Realm                      | 🟦 Crashlytics             |
+| 🟦 Singleton                | 🟦 Plist                      | 🟦 Amplitude               |
+| 🟦 Protocol-Oriented Pr.    | 🟦 Keychain                   | 🟦 Google Analytics        |
+| 🟦 Local Notifications      | 🟦 Instruments                | 🟦 RIBs                    |
+| 🟦 Apple Review Guideline   | 🟦 Sanitizer                  | 🟦 CoreVideo               |
+| 🟦 TestFlight               | 🟦 LLDB                       | 🟦 CoreAudio               |
+| 🟦 AppStore Connect         | 🟦 Diagnostics                |                            |
+| 🟦 Visual Debugging         | 🟦 Provisioning Profiles      |                            |
+| 🟦 Gauges                   | 🟦 Push Notifications         |                            |
+| 🟦 XCTest                   | 🟦 ResponderChain             |                            |
+| 🟦 Model View ViewModel     | 🟦 Multi-Touch Event Handling |                            |
+| 🟦 Cloud Kit                | 🟦 Core Graphics              |                            |
+|                             | 🟦 Objective-C Basics         |                            |
+|                             | 🟦 Open Source Contibution    |                            |
+|                             | 🟦 AVFounation                |                            |
+|                             | 🟦 AudioQueueServices         |                            |
+

@@ -4,6 +4,6 @@
 <code>💡 [Skills](SKILLS.md)</code>
 <code>🧻 [Projects](PROJECTS.md)</code><br>
 <code>🧑‍💻 Languages: Swift, C++, C#, C</code>
-<code>📦 Tech stack: UIKit, SnapKit, WebKit</code><br>
+<code>📦 Tech stack: UIKit, SnapKit, WebKit, MapKit</code><br>
 <code>💬 telegram: [@mangraa1](https://telegram.me/mangraa1)</code>
 <code>📫 [georgiu.spare@gmail.com](mailto:georgiu.spare@gmail.com)</code>

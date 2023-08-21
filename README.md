@@ -1,4 +1,4 @@
-<code>🎓 Student: NAU / IT-161</code>
+<code>🎓 Student: NAU / IT-261</code>
 <code>⚪ Community: Young students developer</code>
 <code>👷 Speciality: Software engineer</code><br>
 <code>💡 [Skills](SKILLS.md)</code>
